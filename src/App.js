@@ -17,7 +17,7 @@ function App() {
       setLoading(true);
       try {
         const response = await axios.get(
-          `https://pagination-d0pl.onrender.com/page?page=${currentPage}&limit=${moviesPerPage}&sort=${
+          `https://projet-pagination-backend.onrender.com/page?page=${currentPage}&limit=${moviesPerPage}&sort=${
             sort.column ? `${sort.column}` : ""}&order=${sort.direction?`${sort.direction}`:""}`
         );
         console.log(response);
