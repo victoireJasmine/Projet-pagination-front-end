@@ -52,7 +52,7 @@ function App() {
 
   return (
     <><header>
-      <h1>Projet Pagination Bernard MOUANDZA MT4</h1>
+      <h1>victoire</h1>
     </header><div>
 
           <table>
